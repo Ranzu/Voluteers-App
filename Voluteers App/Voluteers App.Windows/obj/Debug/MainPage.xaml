@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Voluteers_App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Voluteers_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="115,172,0,0" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top" Foreground="#FF171515" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="401,72,0,0" TextWrapping="Wrap" Text="Sign Up Yourself" VerticalAlignment="Top" Foreground="#FF231F1F" FontSize="48" Width="494"/>
+        <TextBlock HorizontalAlignment="Left" Margin="115,226,0,0" TextWrapping="Wrap" Text="Surname:" VerticalAlignment="Top" FontSize="20" Foreground="#FF131212"/>
+        <TextBlock HorizontalAlignment="Left" Margin="115,286,0,0" TextWrapping="Wrap" Text="Age: " VerticalAlignment="Top" Foreground="#FF0F0F0F" FontSize="20" RenderTransformOrigin="-0.463,0.169"/>
+        <TextBlock HorizontalAlignment="Left" Margin="115,346,0,0" TextWrapping="Wrap" Text="Identity Number: " VerticalAlignment="Top" Foreground="#FF0F0F0F" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="115,406,0,0" TextWrapping="Wrap" Text="Home Language: " VerticalAlignment="Top" Foreground="#FF0F0F0F" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="115,474,0,0" TextWrapping="Wrap" Text="Contact Numbers: " VerticalAlignment="Top" Foreground="#FF0F0F0F" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="115,548,0,0" TextWrapping="Wrap" Text="Email Address: " VerticalAlignment="Top" Foreground="#FF0F0F0F" FontSize="20"/>
+        <Button x:ConnectionId='1' x:Name="btnSave" Content="SAVE" HorizontalAlignment="Left" Margin="364,622,0,0" VerticalAlignment="Top" Background="Transparent" BorderBrush="#FFC1E422" Foreground="#FF111010" FontSize="22" Width="111"                      />
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="319,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Margin="319,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="txtAge" HorizontalAlignment="Left" Margin="319,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="319,338,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="txtHomeLan" HorizontalAlignment="Left" Margin="319,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="txtNum" HorizontalAlignment="Left" Margin="319,466,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="319,540,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+    </Grid>
+</Page>
+

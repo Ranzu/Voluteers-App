@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MOBILE-LAB04</Machine>
+    <WindowsUser>Mod</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b02e80c7-db36-4aab-8b60-8b0ebcfe86e6</PackageIdentityName>
+    <IntermediateOutputPath>D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Voluteers App.Windows.exe">
+      <PackagePath>Voluteers App.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Choice.xbf">
+      <PackagePath>Choice.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\LoginPage.xbf">
+      <PackagePath>LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\OldLists.xbf">
+      <PackagePath>OldLists.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Questions.xbf">
+      <PackagePath>Questions.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Results.xbf">
+      <PackagePath>Results.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Voluteers App.Windows.xr.xml">
+      <PackagePath>Voluteers App.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

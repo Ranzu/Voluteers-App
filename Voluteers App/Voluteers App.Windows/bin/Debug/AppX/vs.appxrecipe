@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MOBILE-LAB04</Machine>
+    <WindowsUser>Mod</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b02e80c7-db36-4aab-8b60-8b0ebcfe86e6</PackageIdentityName>
+    <IntermediateOutputPath>D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>FDC58307FE7DFADD3CF46EAF7146A3607C8681C56861B958265D436151BD94DD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b02e80c7-db36-4aab-8b60-8b0ebcfe86e6_1.0.0.0_neutral__4xwyns1sn5zry</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b02e80c7-db36-4aab-8b60-8b0ebcfe86e6_4xwyns1sn5zry!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b02e80c7-db36-4aab-8b60-8b0ebcfe86e6</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mod</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-08T09:33:35.512</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Voluteers App.Windows.exe">
+      <PackagePath>Voluteers App.Windows.exe</PackagePath>
+      <Modified>2015-07-08T09:41:17.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-07-07T10:56:56.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Choice.xbf">
+      <PackagePath>Choice.xbf</PackagePath>
+      <Modified>2015-07-08T09:41:16.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\LoginPage.xbf">
+      <PackagePath>LoginPage.xbf</PackagePath>
+      <Modified>2015-07-08T09:41:16.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-07-08T09:41:16.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\OldLists.xbf">
+      <PackagePath>OldLists.xbf</PackagePath>
+      <Modified>2015-07-08T09:41:16.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Questions.xbf">
+      <PackagePath>Questions.xbf</PackagePath>
+      <Modified>2015-07-08T09:41:16.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Results.xbf">
+      <PackagePath>Results.xbf</PackagePath>
+      <Modified>2015-07-08T09:41:16.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\Voluteers App.Windows.xr.xml">
+      <PackagePath>Voluteers App.Windows.xr.xml</PackagePath>
+      <Modified>2015-07-08T09:41:16.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-07-08T09:33:34.791</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
