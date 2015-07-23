@@ -51,19 +51,6 @@ namespace Voluteers_App
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
-            Register newUser = new Register()
-            {
-                 name;
-                 surname;
-                 age;
-                 idNumber;
-                 homeLanguage;
-                 contacts;
-                 email;
-                 username;
-                 password
-
-            };
             string name;
             string surname;
             string age;
@@ -73,6 +60,12 @@ namespace Voluteers_App
             string email;
             string username;
             string password;
+
+            Register newUser = new Register()
+            {
+                
+            };
+            
 
 
 
@@ -91,7 +84,7 @@ namespace Voluteers_App
         }
 
 
-        private async void AddUserAppBarButton_Click(object sender, RoutedEventArgs e)
+        /*private async void AddUserAppBarButton_Click(object sender, RoutedEventArgs e)
         {
             // Create a random user
             User newUser = new User()
@@ -111,6 +104,6 @@ namespace Voluteers_App
             // Refresh user list
             UserList.ItemsSource = null;
             UserList.ItemsSource = users;
-        }
+        }*/
     }
 }
