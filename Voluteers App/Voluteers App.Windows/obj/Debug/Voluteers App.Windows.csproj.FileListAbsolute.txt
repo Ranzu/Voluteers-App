@@ -55,3 +55,8 @@ D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Volutee
 D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\OldLists.xbf
 D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\Questions.xbf
 D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\Results.xbf
+D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\LogoutPage.xbf
+D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\LogoutPage.g.i.cs
+D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\LogoutPage.g.cs
+D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\LogoutPage.xaml
+D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\LogoutPage.xbf

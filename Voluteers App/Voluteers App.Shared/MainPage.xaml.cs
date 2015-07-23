@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Voluteers_App.Classes;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -20,6 +21,9 @@ namespace Voluteers_App
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    /// 
+    
+
     public sealed partial class MainPage : Page
     {
         public MainPage()
@@ -47,7 +51,66 @@ namespace Voluteers_App
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
+            Register newUser = new Register()
+            {
+                 name;
+                 surname;
+                 age;
+                 idNumber;
+                 homeLanguage;
+                 contacts;
+                 email;
+                 username;
+                 password
+
+            };
+            string name;
+            string surname;
+            string age;
+            string idNumber;
+            string homeLanguage;
+            string contacts;
+            string email;
+            string username;
+            string password;
+
+
+
+            name = txtName.Text;
+            surname = txtSurname.Text;
+            age = txtAge.Text;
+            idNumber = txtNum.Text;
+            homeLanguage = txtHomeLan.Text;
+            contacts = txtNum.Text;
+            email = txtEmail.Text;
+            username = txtUsernames.Text;
+            password = txtPassword.Text;
+
+            
             this.Frame.Navigate(typeof(LoginPage));
+        }
+
+
+        private async void AddUserAppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Create a random user
+            User newUser = new User()
+            {
+                // the Id will be set by SQlite
+                Name = string.Format("User X (created at {0})", DateTime.Now),
+                City = "Rome, Italy"
+            };
+
+            // Add row to the User Table
+            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("people.db");
+            await conn.InsertAsync(newUser);
+
+            // Add to the user list
+            users.Add(newUser);
+
+            // Refresh user list
+            UserList.ItemsSource = null;
+            UserList.ItemsSource = users;
         }
     }
 }

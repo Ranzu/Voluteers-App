@@ -23,10 +23,17 @@ namespace Voluteers_App
     public sealed partial class OldLists : Page
     {
         private string[] names = {"thapelo","mphumi","tsholo"};
+        private string[] ageNames = { "", "", "", "", "" };
         public OldLists()
         {
             this.InitializeComponent();
+            lstOldAges.ItemsSource = ageNames;
             lstOrphanage.ItemsSource = names;
+        }
+
+        private void btnNextAges_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Questions));
         }
 
     }

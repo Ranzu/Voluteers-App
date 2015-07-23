@@ -29,7 +29,23 @@ namespace Voluteers_App
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
+            string username;
+            string password;
+
+            username = txtUsername.Text;
+            password = txtPassword.Text;
+
             this.Frame.Navigate(typeof(Choice));
+        }
+
+        private void txtUsername_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

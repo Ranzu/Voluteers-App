@@ -1,12 +1,15 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -29,6 +32,8 @@ namespace Voluteers_App
         private TransitionCollection transitions;
 #endif
 
+
+        public static SQLiteAsyncConnection conn = new SQLiteAsyncConnection("people.db");
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -133,5 +138,22 @@ namespace Voluteers_App
             // TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+        private async Task<bool> CheckDbAsync(string dbName)
+        {
+            bool dbExist = true;
+
+            try
+            {
+                StorageFile sf = await ApplicationData.Current.LocalFolder.GetFileAsync(dbName);
+            }
+            catch (Exception)
+            {
+                dbExist = false;
+            }
+
+            return dbExist;
+        }
+
     }
 }

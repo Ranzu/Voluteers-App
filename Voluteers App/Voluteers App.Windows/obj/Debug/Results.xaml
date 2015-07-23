@@ -7,9 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Left" Margin="500,83,0,0" TextWrapping="Wrap" Text="RESULTS!!!" VerticalAlignment="Top" FontSize="48"/>
-        <Button x:Name="btnNResults" Content="NEXT" HorizontalAlignment="Left" Margin="543,606,0,0" VerticalAlignment="Top" Height="75" Width="143" FontSize="24"/>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FFFF00A7" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="500,83,0,0" TextWrapping="Wrap" Text="RESULTS!!!" VerticalAlignment="Top" FontSize="48" Foreground="#FFEE00FF" FontWeight="Bold"/>
+        <Button x:ConnectionId='1' x:Name="btnNResults" Content="NEXT" HorizontalAlignment="Left" Margin="540,474,0,0" VerticalAlignment="Top" Height="75" Width="143" FontSize="24"                           Foreground="#FFFF0051" BorderBrush="#FFD7FF00" Background="#FFB4FF00"/>
+        <TextBlock HorizontalAlignment="Left" Margin="364,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.644,0.231"/>
 
     </Grid>
 </Page>

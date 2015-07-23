@@ -26,5 +26,10 @@ namespace Voluteers_App
         {
             this.InitializeComponent();
         }
+
+        private void btnNResults_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LogoutPage));
+        }
     }
 }

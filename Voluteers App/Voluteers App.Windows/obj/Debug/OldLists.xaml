@@ -7,14 +7,20 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Left" Margin="133,180,0,0" TextWrapping="Wrap" Text="Old Ages" VerticalAlignment="Top" FontSize="20"/>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FFFF009C" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="133,180,0,0" TextWrapping="Wrap" Text="Old Ages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
         <ListView x:Name="lstOldAges" HorizontalAlignment="Left" Height="100" Margin="133,209,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock HorizontalAlignment="Left" Margin="133,333,0,0" TextWrapping="Wrap" Text="Orphanages" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="133,333,0,0" TextWrapping="Wrap" Text="Orphanages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
         <ListView x:Name="lstOrphanage" HorizontalAlignment="Left" Height="100" Margin="133,401,0,0" VerticalAlignment="Top" Width="100" SelectionMode="Multiple">
             <ListViewItem Margin="0" Width="395"/>
         </ListView>
-        <Button x:Name="btnNextAges" Content="NEXT" HorizontalAlignment="Left" Margin="403,601,0,0" VerticalAlignment="Top" Width="198" Height="89"/>
+        <Button x:ConnectionId='1' x:Name="btnNextAges" Content="NEXT" HorizontalAlignment="Left" Margin="403,601,0,0" VerticalAlignment="Top" Width="198" Height="89"                           Foreground="#FFE200FF" FontWeight="Bold" FontSize="36" Background="#FFC0FF00"/>
 
     </Grid>
 </Page>

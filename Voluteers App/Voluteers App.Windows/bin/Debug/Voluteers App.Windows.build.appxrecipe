@@ -44,6 +44,9 @@
     <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\LogoutPage.xbf">
+      <PackagePath>LogoutPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
