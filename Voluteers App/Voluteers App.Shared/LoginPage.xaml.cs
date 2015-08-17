@@ -1,8 +1,10 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Voluteers_App.Classes;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -27,15 +29,20 @@ namespace Voluteers_App
             this.InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
+
+
+        private async void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            string username;
-            string password;
 
-            username = txtUsername.Text;
-            password = txtPassword.Text;
+            Login newLog = new Login()
+            {
 
-            this.Frame.Navigate(typeof(Choice));
+                username = txtUsername.Text,
+                password = txtPassword.Text
+            };
+
+            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
+            await conn.InsertAsync(newLog);
         }
 
         private void txtUsername_TextChanged(object sender, TextChangedEventArgs e)

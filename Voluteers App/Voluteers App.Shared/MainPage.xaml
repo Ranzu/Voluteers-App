@@ -23,7 +23,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="115,406,0,0" TextWrapping="Wrap" Text="Home Language: " VerticalAlignment="Top" Foreground="#FFC802F3" FontSize="20" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="115,474,0,0" TextWrapping="Wrap" Text="Contact Numbers: " VerticalAlignment="Top" Foreground="#FFC802F3" FontSize="20" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="115,548,0,0" TextWrapping="Wrap" Text="Email Address: " VerticalAlignment="Top" Foreground="#FFC802F3" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnSave" Content="SAVE" HorizontalAlignment="Left" Margin="345,723,0,-3" VerticalAlignment="Top" Background="#FFD7E82E" BorderBrush="#FFC1E422" Foreground="#FFC802F3" FontSize="22" Width="111" Click="btnSave_Click" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.604,1.979"/>
+        <Button x:Name="btnSave" Content="SAVE" HorizontalAlignment="Left" Margin="192,725,0,-5" VerticalAlignment="Top" Background="#FFD7E82E" BorderBrush="#FFC1E422" Foreground="#FFC802F3" FontSize="22" Width="111" Click="btnSave_Click" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.604,1.979"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="319,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
         <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Margin="319,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
         <TextBox x:Name="txtAge" HorizontalAlignment="Left" Margin="319,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
@@ -35,5 +35,6 @@
         <TextBlock x:Name="txtPass" HorizontalAlignment="Left" Margin="115,675,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Foreground="#FFE157FF" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="txtUsernames" HorizontalAlignment="Left" Margin="319,612,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="319,675,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <Button x:Name="btnLoginnn" Content="LOGIN" HorizontalAlignment="Left" Margin="567,717,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" FontSize="22" Click="btnLoginnn_Click"/>
     </Grid>
 </Page>

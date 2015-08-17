@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -49,37 +50,63 @@ namespace Voluteers_App
             // this event is handled for you.
         }
 
-        private void btnSave_Click(object sender, RoutedEventArgs e)
+        private async void btnSave_Click(object sender, RoutedEventArgs e)
         {
-            string name;
-            string surname;
-            string age;
-            string idNumber;
-            string homeLanguage;
-            string contacts;
-            string email;
-            string username;
-            string password;
+            //string name;
+            //string surname;
+            //int age;
+            //string idNumber;
+            //string homeLanguage;
+            //string contactNum;
+            //string emailAddress;
+            //string username;
+            //string password;
 
-            Register newUser = new Register()
+            try
             {
+                Register newUser = new Register()
+                {
+
+                    name = txtName.Text,
+                    surname = txtSurname.Text,
+                    age = Convert.ToInt32(txtAge.Text),
+                    idNumber = txtId.Text,
+                    homeLanguage = txtHomeLan.Text,
+                    contactNum = txtNum.Text,
+                    emailAddress = txtEmail.Text,
+                    username = txtUsernames.Text,
+                    password = txtPassword.Text
+
+                };
+
                 
-            };
+                     SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
+                    await conn.InsertAsync(newUser);
+
+                   
+              
+
+            }
+            catch(Exception exc)
+            {
+ 
+            }
+
+
+            MessageBox("You are successful registered");
+
             
+        }
 
+        private async void MessageBox(string p)
+        {
+            var msgDlg = new Windows.UI.Popups.MessageDialog(p);
 
+            await msgDlg.ShowAsync();
+        }
 
-            name = txtName.Text;
-            surname = txtSurname.Text;
-            age = txtAge.Text;
-            idNumber = txtNum.Text;
-            homeLanguage = txtHomeLan.Text;
-            contacts = txtNum.Text;
-            email = txtEmail.Text;
-            username = txtUsernames.Text;
-            password = txtPassword.Text;
-
-            
+        private void btnLoginnn_Click(object sender, RoutedEventArgs e)
+        {
             this.Frame.Navigate(typeof(LoginPage));
         }
 

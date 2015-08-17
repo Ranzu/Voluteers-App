@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
+using Voluteers_App.Classes;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -28,12 +29,24 @@ namespace Voluteers_App
     /// </summary>
     public sealed partial class App : Application
     {
+        public string dbPath { get; set; }
+
 #if WINDOWS_PHONE_APP
         private TransitionCollection transitions;
 #endif
 
 
-        public static SQLiteAsyncConnection conn = new SQLiteAsyncConnection("people.db");
+        SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
+
+        //public async void CreateDatabase()
+        //{
+        //    SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
+        //    await conn.CreateTableAsync<Register>();
+
+        //}
+
+       
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -50,7 +63,7 @@ namespace Voluteers_App
         /// search results, and so forth.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
@@ -58,6 +71,14 @@ namespace Voluteers_App
                 this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
+
+            this.dbPath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "Register.db");
+            using (var dbase = new SQLite.SQLiteConnection(dbPath))
+            {
+                dbase.CreateTable<Register>();
+                dbase.CreateTable<Login>();
+                
+            }
 
             Frame rootFrame = Window.Current.Content as Frame;
 
@@ -139,21 +160,66 @@ namespace Voluteers_App
             deferral.Complete();
         }
 
-        private async Task<bool> CheckDbAsync(string dbName)
+        public async Task<bool> DoesDbExist(string DatabaseName)
         {
-            bool dbExist = true;
+            bool dbexist = true;
 
             try
             {
-                StorageFile sf = await ApplicationData.Current.LocalFolder.GetFileAsync(dbName);
-            }
-            catch (Exception)
-            {
-                dbExist = false;
-            }
+                StorageFile storageFile = await
 
-            return dbExist;
+                ApplicationData.Current.LocalFolder.GetFileAsync(DatabaseName);
+            }
+            catch
+            {
+                dbexist = false;
+            }
+            return dbexist;
+ 
         }
+
+        private async Task AddUsersAsync()
+        {              
+
+           
+        var Register = new Register()
+        {
+
+        };
+         SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
+          await conn.InsertAsync(Register);
+           
+        }
+
+        private void MessageBox(string p)
+        {
+            throw new NotImplementedException();
+        }
+        
+
+
+
+        private async Task AddLoginAsync()
+        {
+
+            var Login = new Login()
+            {
+                //name = "Mmalerato",
+                //surname = "Thetela"
+
+
+            };
+            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
+            await conn.InsertAsync(Login);
+        }
+        private async Task GetUsersAsync()
+        {
+            
+
+
+       
+        }
+     
 
     }
 }

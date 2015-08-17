@@ -18,6 +18,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Choice.xaml.cs">
       <DependentUpon>Choice.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Login.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Register.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
@@ -39,6 +40,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)SOLite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLiteAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)tblRegister.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="$(MSBuildThisFileDirectory)Choice.xaml">

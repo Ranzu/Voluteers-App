@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Voluteers_App.Classes
 {
-[Table("Register")]
+[Table("Registers")]
     class Register
     {
         [PrimaryKey, AutoIncrement]
@@ -15,6 +15,7 @@ namespace Voluteers_App.Classes
         public string surname{get; set;}
         public int age{get; set;}
         public string idNumber{get; set;}
+        public string homeLanguage { get; set; }
         public string contactNum{get; set;}
         public string emailAddress{get; set;}
 

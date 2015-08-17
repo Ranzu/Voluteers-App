@@ -19,7 +19,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="143,276,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontSize="22" Foreground="#FFFF00E1" FontWeight="Bold"/>
         <TextBox x:ConnectionId='1' x:Name="txtUsername" HorizontalAlignment="Left" Margin="320,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"                                      />
         <TextBox x:ConnectionId='2' x:Name="txtPassword" HorizontalAlignment="Left" Margin="320,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"                                      />
-        <Button x:ConnectionId='3' x:Name="btnLogin" Content="LOGIN" HorizontalAlignment="Left" Margin="431,409,0,0" VerticalAlignment="Top" Width="196" Height="104" FontSize="22"                        Background="#FFCBFF00" BorderBrush="#FF4BFF00" Foreground="#FFFF009C" FontWeight="Bold"/>
+        <Button x:ConnectionId='3' x:Name="btnLogin" Content="LOGIN" HorizontalAlignment="Left" Margin="282,415,0,0" VerticalAlignment="Top" Width="196" Height="104" FontSize="22"                        Background="#FFCBFF00" BorderBrush="#FF4BFF00" Foreground="#FFFF009C" FontWeight="Bold"/>
 
     </Grid>
 </Page>
