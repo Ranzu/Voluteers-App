@@ -93,26 +93,5 @@ namespace Voluteers_App
         }
 
 
-        /*private async void AddUserAppBarButton_Click(object sender, RoutedEventArgs e)
-        {
-            // Create a random user
-            User newUser = new User()
-            {
-                // the Id will be set by SQlite
-                Name = string.Format("User X (created at {0})", DateTime.Now),
-                City = "Rome, Italy"
-            };
-
-            // Add row to the User Table
-            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("people.db");
-            await conn.InsertAsync(newUser);
-
-            // Add to the user list
-            users.Add(newUser);
-
-            // Refresh user list
-            UserList.ItemsSource = null;
-            UserList.ItemsSource = users;
-        }*/
     }
 }
