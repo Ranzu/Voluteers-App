@@ -72,11 +72,14 @@ namespace Voluteers_App
             }
 #endif
 
-            this.dbPath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "Register.db");
+            this.dbPath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "Volunteers.db");
             using (var dbase = new SQLite.SQLiteConnection(dbPath))
             {
                 dbase.CreateTable<Register>();
-                dbase.CreateTable<Login>();
+                dbase.CreateTable<User>();
+                dbase.CreateTable<Orphanage>();
+                dbase.CreateTable<Job>();
+                dbase.CreateTable<OldAge>();
                 
             }
 
@@ -191,6 +194,14 @@ namespace Voluteers_App
            
         }
 
+
+        private async Task LogUsersAsync()
+        {
+
+
+        }
+
+
         private void MessageBox(string p)
         {
             throw new NotImplementedException();
@@ -199,26 +210,7 @@ namespace Voluteers_App
 
 
 
-        private async Task AddLoginAsync()
-        {
-
-            var Login = new Login()
-            {
-                //name = "Mmalerato",
-                //surname = "Thetela"
-
-
-            };
-            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
-            await conn.InsertAsync(Login);
-        }
-        private async Task GetUsersAsync()
-        {
-            
-
-
-       
-        }
+        
      
 
     }

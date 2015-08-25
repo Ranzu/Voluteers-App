@@ -19,6 +19,7 @@
         <CheckBox x:Name="chbVolunteer" Content="Volunteers" HorizontalAlignment="Left" Margin="199,281,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFFF0085" FontWeight="Bold"/>
         <CheckBox x:Name="chbJob" Content="JobSeekers" HorizontalAlignment="Left" Margin="199,358,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFFF0085" FontWeight="Bold"/>
         <Button x:Name="btnNChoice" Content="NEXT" HorizontalAlignment="Left" Margin="493,448,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.039,1.643" Height="102" Width="179" FontSize="24" Click="btnNChoice_Click" Background="#FFB4FF00" Foreground="#FF1100FF" FontWeight="Bold" BorderBrush="#FF06FF00"/>
+        <Button x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="195,462,0,0" VerticalAlignment="Top" Height="86" Width="193" Click="btnBack_Click"/>
 
     </Grid>
 </Page>

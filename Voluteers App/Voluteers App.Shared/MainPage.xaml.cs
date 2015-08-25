@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿using ElectricityApp.model;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -27,6 +28,7 @@ namespace Voluteers_App
 
     public sealed partial class MainPage : Page
     {
+        private UserViewModel usermodel = null;
         public MainPage()
         {
             this.InitializeComponent();
@@ -50,46 +52,26 @@ namespace Voluteers_App
             // this event is handled for you.
         }
 
-        private async void btnSave_Click(object sender, RoutedEventArgs e)
+        private void btnSave_Click(object sender, RoutedEventArgs e)
         {
-            //string name;
-            //string surname;
-            //int age;
-            //string idNumber;
-            //string homeLanguage;
-            //string contactNum;
-            //string emailAddress;
-            //string username;
-            //string password;
+            usermodel = new UserViewModel();
+            string name = txtName.Text;
+            string surname = txtSurname.Text;
+            int age = Convert.ToInt32(txtAge.Text);
+            string idNumber = txtId.Text;
+            string homeLanguage = txtHomeLan.Text;
+            string contactNum = txtNum.Text;
+            string  emailAddress = txtEmail.Text;
+            string  username = txtUsernames.Text;
+            string password = txtPassword.Text;
 
             try
             {
-                Register newUser = new Register()
-                {
-
-                    name = txtName.Text,
-                    surname = txtSurname.Text,
-                    age = Convert.ToInt32(txtAge.Text),
-                    idNumber = txtId.Text,
-                    homeLanguage = txtHomeLan.Text,
-                    contactNum = txtNum.Text,
-                    emailAddress = txtEmail.Text,
-                    username = txtUsernames.Text,
-                    password = txtPassword.Text
-
-                };
-
-                
-                     SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
-                    await conn.InsertAsync(newUser);
-
-                   
-              
-
+                usermodel.addUser(name,surname,age,idNumber,homeLanguage,contactNum,emailAddress,username,password);
             }
             catch(Exception exc)
             {
- 
+                MessageBox(exc.Message);
             }
 
 

@@ -7,7 +7,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b02e80c7-db36-4aab-8b60-8b0ebcfe86e6</PackageIdentityName>
-    <IntermediateOutputPath>D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Voluteers App\Voluteers App\Voluteers App.Windows\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>B28971107A693CEA4EED09A8D5A670DF57F0F8EE7DA063401F6B3EDEC33F772D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b02e80c7-db36-4aab-8b60-8b0ebcfe86e6_1.0.0.0_x86__4xwyns1sn5zry</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b02e80c7-db36-4aab-8b60-8b0ebcfe86e6_4xwyns1sn5zry!App</RegisteredUserModeAppID>
@@ -17,80 +17,84 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-17T09:24:08.207</Modified>
+      <Modified>2015-08-24T07:21:41.828</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Voluteers App.Windows.exe">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Voluteers App.Windows.exe">
       <PackagePath>Voluteers App.Windows.exe</PackagePath>
-      <Modified>2015-08-17T13:26:41.909</Modified>
+      <Modified>2015-08-24T07:21:41.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.10.2\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
       <Modified>2015-05-27T09:22:08.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-08-17T13:02:11.446</Modified>
+      <Modified>2015-08-24T07:21:40.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Choice.xbf">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Choice.xbf">
       <PackagePath>Choice.xbf</PackagePath>
-      <Modified>2015-08-14T08:14:03.102</Modified>
+      <Modified>2015-08-24T07:21:40.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\LoginPage.xbf">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\JobPage.xbf">
+      <PackagePath>JobPage.xbf</PackagePath>
+      <Modified>2015-08-24T07:21:40.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2015-08-17T13:26:41.425</Modified>
+      <Modified>2015-08-24T07:21:40.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\LogoutPage.xbf">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\LogoutPage.xbf">
       <PackagePath>LogoutPage.xbf</PackagePath>
-      <Modified>2015-08-14T08:14:03.113</Modified>
+      <Modified>2015-08-24T07:21:40.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-08-17T13:26:41.444</Modified>
+      <Modified>2015-08-24T07:21:40.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\OldLists.xbf">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\OldLists.xbf">
       <PackagePath>OldLists.xbf</PackagePath>
-      <Modified>2015-08-14T08:14:03.131</Modified>
+      <Modified>2015-08-24T07:21:40.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Questions.xbf">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Questions.xbf">
       <PackagePath>Questions.xbf</PackagePath>
-      <Modified>2015-08-14T08:14:03.135</Modified>
+      <Modified>2015-08-24T07:21:40.922</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Results.xbf">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Results.xbf">
       <PackagePath>Results.xbf</PackagePath>
-      <Modified>2015-08-14T08:14:03.138</Modified>
+      <Modified>2015-08-24T07:21:40.922</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Voluteers App.Windows.xr.xml">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Voluteers App.Windows.xr.xml">
       <PackagePath>Voluteers App.Windows.xr.xml</PackagePath>
-      <Modified>2015-07-23T13:32:56.588</Modified>
+      <Modified>2015-08-23T04:58:50.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-08-17T09:24:07.063</Modified>
+      <Modified>2015-08-24T07:21:41.672</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

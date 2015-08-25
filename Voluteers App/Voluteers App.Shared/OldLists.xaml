@@ -15,12 +15,15 @@
             </LinearGradientBrush>
         </Grid.Background>
         <TextBlock HorizontalAlignment="Left" Margin="133,180,0,0" TextWrapping="Wrap" Text="Old Ages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
-        <ListView x:Name="lstOldAges" HorizontalAlignment="Left" Height="100" Margin="133,209,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock HorizontalAlignment="Left" Margin="133,333,0,0" TextWrapping="Wrap" Text="Orphanages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
-        <ListView x:Name="lstOrphanage" HorizontalAlignment="Left" Height="100" Margin="133,401,0,0" VerticalAlignment="Top" Width="100" SelectionMode="Multiple">
-            <ListViewItem Margin="0" Width="395"/>
+        <ListView x:Name="lstOldAges" SelectionMode="Single" HorizontalAlignment="Left" Height="96" Margin="133,209,0,0" VerticalAlignment="Top" Width="132" SelectionChanged="lstOldAges_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="142,370,0,0" TextWrapping="Wrap" Text="Orphanages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
+        <ListView x:Name="lstOrphanage" HorizontalAlignment="Left" SelectionMode="Single" Height="100" Margin="133,401,0,0" VerticalAlignment="Top" Width="100"  SelectionChanged="lstOrphanage_SelectionChanged">
+            <ListViewItem Margin="0" Width="288" Height="99"/>
         </ListView>
         <Button x:Name="btnNextAges" Content="NEXT" HorizontalAlignment="Left" Margin="403,601,0,0" VerticalAlignment="Top" Width="198" Height="89" Click="btnNextAges_Click" Foreground="#FFE200FF" FontWeight="Bold" FontSize="36" Background="#FFC0FF00"/>
+        <Button x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="142,600,0,0" VerticalAlignment="Top" Height="88" Width="208" Click="Button_Click"/>
+        <HyperlinkButton x:Name="linkVisit" Content="Visit" HorizontalAlignment="Left" Margin="133,316,0,0" VerticalAlignment="Top" Width="142" Click="linkVisit_Click"/>
+        <HyperlinkButton x:Name="linkVisitOrphanage" Content="Go to Site" HorizontalAlignment="Left" Margin="150,516,0,0" VerticalAlignment="Top" Click="linkVisitOrphanage_Click"/>
 
     </Grid>
 </Page>

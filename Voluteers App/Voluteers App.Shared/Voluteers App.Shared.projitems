@@ -18,8 +18,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)Choice.xaml.cs">
       <DependentUpon>Choice.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Classes\Login.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Job.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\OldAge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Orphanage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Register.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JobPage.xaml.cs">
+      <DependentUpon>JobPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
@@ -29,6 +35,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)models\JobsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\JobViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\OldAgesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\OldAgeViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\OrphanagesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\OrphanageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\UsersViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)models\UserViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)OldLists.xaml.cs">
       <DependentUpon>OldLists.xaml</DependentUpon>
     </Compile>
@@ -44,6 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="$(MSBuildThisFileDirectory)Choice.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)JobPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

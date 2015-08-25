@@ -27,7 +27,7 @@
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="319,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
         <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Margin="319,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
         <TextBox x:Name="txtAge" HorizontalAlignment="Left" Margin="319,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
-        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="319,338,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="320,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
         <TextBox x:Name="txtHomeLan" HorizontalAlignment="Left" Margin="319,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
         <TextBox x:Name="txtNum" HorizontalAlignment="Left" Margin="319,466,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
         <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="319,540,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>

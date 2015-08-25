@@ -1,0 +1,257 @@
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\App.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Choice.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\LoginPage.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\LogoutPage.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\MainPage.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\OldLists.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Questions.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Results.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.xr.xml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.exe
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.pdb
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\resources.pri
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\AppxManifest.xml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.build.appxrecipe
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.g.i.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.g.i.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.g.i.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.g.i.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.g.i.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.g.i.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.g.i.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.g.i.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\XamlTypeInfo.g.cs
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.xaml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.xaml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.xaml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.xaml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.xaml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.xaml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.xaml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.xaml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.xbf
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\XamlSaveStateFile.xml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.exe
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.pdb
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.csproj.GenerateResource.Cache
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\priconfig.xml
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\priconfig.xml.intermediate
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\layout.resfiles
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\layout.resfiles.intermediate
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\resources.resfiles
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\resources.resfiles.intermediate
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\pri.resfiles
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\pri.resfiles.intermediate
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\qualifiers.txt
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\qualifiers.txt.intermediate
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\ProjectArchitectures.txt
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\App.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Choice.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\LoginPage.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\LogoutPage.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\MainPage.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\OldLists.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Questions.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Results.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.xr.xml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.exe
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.pdb
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\resources.pri
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\AppxManifest.xml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.build.appxrecipe
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.g.i.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.g.i.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.g.i.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.g.i.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.g.i.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.g.i.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.g.i.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.g.i.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\XamlTypeInfo.g.cs
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.xaml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.xaml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.xaml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.xaml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.xaml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.xaml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.xaml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.xaml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.xbf
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\XamlSaveStateFile.xml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.exe
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.pdb
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.csproj.GenerateResource.Cache
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\priconfig.xml
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\priconfig.xml.intermediate
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\layout.resfiles
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\layout.resfiles.intermediate
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\resources.resfiles
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\resources.resfiles.intermediate
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\pri.resfiles
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\pri.resfiles.intermediate
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\qualifiers.txt
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\qualifiers.txt.intermediate
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Microsoft FProject\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\App.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Choice.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\LoginPage.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\LogoutPage.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\MainPage.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\OldLists.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Questions.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Results.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.xr.xml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.exe
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.pdb
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\resources.pri
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\AppxManifest.xml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.build.appxrecipe
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.g.i.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.g.i.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.g.i.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.g.i.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.g.i.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.g.i.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.g.i.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.xaml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.xaml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.xaml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.xaml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.xaml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.xaml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.xaml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.xaml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.xbf
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.exe
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.pdb
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.csproj.GenerateResource.Cache
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\priconfig.xml
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\layout.resfiles
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\resources.resfiles
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\pri.resfiles
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\qualifiers.txt
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Sovenga\Documents\My Windows Project\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\ProjectArchitectures.txt
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\App.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Choice.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\JobPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\LoginPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\LogoutPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\MainPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\OldLists.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Questions.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Results.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.xr.xml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.exe
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.pdb
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\resources.pri
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\AppxManifest.xml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\bin\x86\Debug\Voluteers App.WindowsPhone.build.appxrecipe
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\JobPage.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\JobPage.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.g.i.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\JobPage.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.xaml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\App.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Choice.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\JobPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LoginPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\LogoutPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MainPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\OldLists.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Questions.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Results.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\XamlSaveStateFile.xml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.exe
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.pdb
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\Voluteers App.WindowsPhone.csproj.GenerateResource.Cache
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\priconfig.xml
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\priconfig.xml.intermediate
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\layout.resfiles
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\layout.resfiles.intermediate
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\resources.resfiles
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\resources.resfiles.intermediate
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\pri.resfiles
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\pri.resfiles.intermediate
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\qualifiers.txt
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Voluteers App\Voluteers App\Voluteers App.WindowsPhone\obj\x86\Debug\ProjectArchitectures.txt

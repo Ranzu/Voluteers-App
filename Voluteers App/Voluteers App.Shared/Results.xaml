@@ -15,8 +15,18 @@
             </LinearGradientBrush>
         </Grid.Background>
         <TextBlock HorizontalAlignment="Left" Margin="500,83,0,0" TextWrapping="Wrap" Text="RESULTS!!!" VerticalAlignment="Top" FontSize="48" Foreground="#FFEE00FF" FontWeight="Bold"/>
-        <Button x:Name="btnNResults" Content="NEXT" HorizontalAlignment="Left" Margin="540,474,0,0" VerticalAlignment="Top" Height="75" Width="143" FontSize="24" Click="btnNResults_Click" Foreground="#FFFF0051" BorderBrush="#FFD7FF00" Background="#FFB4FF00"/>
+        <Button x:Name="btnNResults" Content="PASSED" HorizontalAlignment="Left" Margin="762,437,0,0" VerticalAlignment="Top" Height="75" Width="156" FontSize="24" Click="btnNResults_Click" Foreground="#FFFF0051" BorderBrush="#FFD7FF00" Background="#FFB4FF00"/>
         <TextBlock HorizontalAlignment="Left" Margin="364,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.644,0.231"/>
+        <Button x:Name="btnFailed" Content="FAILED" HorizontalAlignment="Left" Margin="577,435,0,0" VerticalAlignment="Top" Height="73" Width="161" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="220,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="#FFEE00FF" FontWeight="Bold" SelectionChanged="TextBlock_SelectionChanged" Width="485">
+        	<Run Text="Your "/>
+        	<Run Text="Score"/>
+        	<Run Text=" "/>
+        	<Run Text="Results"/>
+        	<Run Text=":"/>
+        </TextBlock>
+        <TextBlock x:Name="lblScore" HorizontalAlignment="Left" Margin="720,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="#FFEE00FF" FontWeight="Bold" Width="395" Height="60"/>
+        <Button x:Name="btntryagain" Content="TRY AGAIN" HorizontalAlignment="Left" Margin="377,440,0,0" VerticalAlignment="Top" Height="63" Width="171" Click="btntryagain_Click"/>
 
     </Grid>
 </Page>

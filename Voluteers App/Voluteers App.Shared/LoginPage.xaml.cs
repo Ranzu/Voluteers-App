@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿using ElectricityApp.model;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -24,6 +25,9 @@ namespace Voluteers_App
     /// </summary>
     public sealed partial class LoginPage : Page
     {
+        private UserViewModel usermodel = null;
+        private User user = null;
+        private Register regis;
         public LoginPage()
         {
             this.InitializeComponent();
@@ -31,18 +35,35 @@ namespace Voluteers_App
 
 
 
-        private async void btnLogin_Click(object sender, RoutedEventArgs e)
+        private  void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-
-            Login newLog = new Login()
+            string username = txtUsername2.Text;
+            string pass = txtPassword2.Text;
+            usermodel = new UserViewModel();
+            user = usermodel.getUser(username,pass);
+            try
             {
+                if (user != null)
+                {
+                    this.Frame.Navigate(typeof(Choice));
+                }
+                else { 
+                    MessageBox("Error, Invalid Login");
+                }       
+              
+            }
+            catch(Exception ex)
+            {
+                MessageBox(ex.Message+" or Error, Invalid Login");
+            }
+        }
 
-                username = txtUsername.Text,
-                password = txtPassword.Text
-            };
 
-            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("Register.db");
-            await conn.InsertAsync(newLog);
+        private async void MessageBox(string p)
+        {
+            var msgDlg = new Windows.UI.Popups.MessageDialog(p);
+
+            await msgDlg.ShowAsync();
         }
 
         private void txtUsername_TextChanged(object sender, TextChangedEventArgs e)
@@ -54,5 +75,8 @@ namespace Voluteers_App
         {
 
         }
+
+          
+
     }
 }
