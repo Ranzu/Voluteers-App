@@ -65,5 +65,10 @@ namespace Voluteers_App.models
             }
 
         }
+
+        internal void addOphenagebManually(string p1, string p2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -58,19 +58,21 @@ namespace Voluteers_App
                     jobModel.addJobManually("Indeed Jobs", "http://www.indeed.com");  
                 }
                 //now populate old ages table if empty
-                if (oldAge == null)
+                if (oldAge != null)
                 {
-                    oldModel.addOldAgeManually("Vermount Old Age", "http://www.vermount.ac.za");
-                    oldModel.addOldAgeManually("Vermount Old Age", "http://www.vermount.ac.za");
-                    oldModel.addOldAgeManually("Vermount Old Age", "http://www.vermount.ac.za");
+                    oldModel.addOldAgeManually("Overall Search", "https://www.google.co.za/?gfe_rd=cr&ei=M13pVZSSGYKp8weova_IDw&gws_rd=ssl#q=oldAge");
+                    oldModel.addOldAgeManually("Vermount Old Age", "http://community-services.blaauwberg.net/old-age-homes/old-age-homes-western-cape/Vermont-Old-Aged-Home-Hornlee");
+                    oldModel.addOldAgeManually("SeniorServices Old Age", "https://www.google.co.za/?gfe_rd=cr&ei=M13pVZSSGYKp8weova_IDw&gws_rd=ssl#q=seniorservice");
+                    oldModel.addOldAgeManually("Mothwa Haven Old Age", "http://www.yellowpages.co.za/business/SA_5878392_BUS");
                 }
-
+               
                 //now populate orphanages table if empty
-                if (orphanage == null)
+                if (orphanage != null)
                 {
-                    orphanageModel.addOphenagebManually("Thabang Lebese");
-                    orphanageModel.addOphenagebManually("Thabang Lebese");
-                    orphanageModel.addOphenagebManually("Thabang Lebese");
+                    orphanageModel.addOphenagebManually("Tshwaraganang", "http://www.tshwaraganang.org.za/index.php/component/content/?view=featured");
+                    orphanageModel.addOphenagebManually("Arcadia Home", "http://www.jhbchev.co.za/pages/default.aspx");
+                    orphanageModel.addOphenagebManually("Sunnyside Orphanage Home", "http://www.soh.org.za/");
+                    orphanageModel.addOphenagebManually("Overall Search", "https://www.google.co.za/?gfe_rd=cr&ei=M13pVZSSGYKp8weova_IDw&gws_rd=ssl#q=orphanage+");
                 }
                              
             }

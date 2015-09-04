@@ -59,7 +59,6 @@ namespace Voluteers_App.models
                 {
                     int data = db.Insert(new OldAge()
                     {
-                        Id = 0,
                         name = name,
                         location = loc
                     });

@@ -20,13 +20,13 @@
     <AppXManifest Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-24T07:21:41.828</Modified>
+      <Modified>2015-08-25T10:22:59.376</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Voluteers App.Windows.exe">
       <PackagePath>Voluteers App.Windows.exe</PackagePath>
-      <Modified>2015-08-24T07:21:41.453</Modified>
+      <Modified>2015-09-04T09:35:52.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.10.2\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -54,47 +54,47 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.907</Modified>
+      <Modified>2015-08-25T10:22:53.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Choice.xbf">
       <PackagePath>Choice.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.907</Modified>
+      <Modified>2015-08-26T10:46:44.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\JobPage.xbf">
       <PackagePath>JobPage.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.907</Modified>
+      <Modified>2015-08-26T10:46:44.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.907</Modified>
+      <Modified>2015-08-26T10:46:44.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\LogoutPage.xbf">
       <PackagePath>LogoutPage.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.907</Modified>
+      <Modified>2015-08-25T10:22:53.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.907</Modified>
+      <Modified>2015-08-26T10:46:44.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\OldLists.xbf">
       <PackagePath>OldLists.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.907</Modified>
+      <Modified>2015-09-01T09:03:44.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Questions.xbf">
       <PackagePath>Questions.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.922</Modified>
+      <Modified>2015-08-26T10:46:44.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Results.xbf">
       <PackagePath>Results.xbf</PackagePath>
-      <Modified>2015-08-24T07:21:40.922</Modified>
+      <Modified>2015-08-25T10:22:53.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\Voluteers App.Windows.xr.xml">
       <PackagePath>Voluteers App.Windows.xr.xml</PackagePath>
-      <Modified>2015-08-23T04:58:50.498</Modified>
+      <Modified>2015-09-01T09:03:44.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Voluteers App\Voluteers App\Voluteers App.Windows\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-08-24T07:21:41.672</Modified>
+      <Modified>2015-08-25T10:22:58.590</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

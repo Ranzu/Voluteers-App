@@ -14,16 +14,29 @@
                 <GradientStop Color="#FFFF009C" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Left" Margin="133,180,0,0" TextWrapping="Wrap" Text="Old Ages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
-        <ListView x:ConnectionId='1' x:Name="lstOldAges" SelectionMode="Single" HorizontalAlignment="Left" Height="96" Margin="133,209,0,0" VerticalAlignment="Top" Width="132"                                               />
-        <TextBlock HorizontalAlignment="Left" Margin="142,370,0,0" TextWrapping="Wrap" Text="Orphanages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
-        <ListView x:ConnectionId='2' x:Name="lstOrphanage" HorizontalAlignment="Left" SelectionMode="Single" Height="100" Margin="133,401,0,0" VerticalAlignment="Top" Width="100"                                                  >
-            <ListViewItem Margin="0" Width="288" Height="99"/>
+        <TextBlock HorizontalAlignment="Left" Margin="550,95,0,0" TextWrapping="Wrap" Text="Make your choice " VerticalAlignment="Top" FontSize="36" Width="330" Foreground="#FF00CBFF" FontWeight="Bold" Height="65"/>
+        <TextBlock HorizontalAlignment="Left" Margin="450,201,0,0" TextWrapping="Wrap" Text="Old Ages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
+        <ListView x:ConnectionId='1' x:Name="lstOldAges" SelectionMode="Single" HorizontalAlignment="Left" Height="96" Margin="605,190,0,0" VerticalAlignment="Top" Width="132"                                               >
+            <ListView.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF06FF00" Offset="1"/>
+                </LinearGradientBrush>
+            </ListView.Background>
         </ListView>
-        <Button x:ConnectionId='3' x:Name="btnNextAges" Content="NEXT" HorizontalAlignment="Left" Margin="403,601,0,0" VerticalAlignment="Top" Width="198" Height="89"                           Foreground="#FFE200FF" FontWeight="Bold" FontSize="36" Background="#FFC0FF00"/>
-        <Button x:ConnectionId='4' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="142,600,0,0" VerticalAlignment="Top" Height="88" Width="208"                     />
-        <HyperlinkButton x:ConnectionId='5' x:Name="linkVisit" Content="Visit" HorizontalAlignment="Left" Margin="133,316,0,0" VerticalAlignment="Top" Width="142"                        />
-        <HyperlinkButton x:ConnectionId='6' x:Name="linkVisitOrphanage" Content="Go to Site" HorizontalAlignment="Left" Margin="150,516,0,0" VerticalAlignment="Top"                                 />
+        <TextBlock HorizontalAlignment="Left" Margin="455,420,0,0" TextWrapping="Wrap" Text="Orphanages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
+        <ListView x:ConnectionId='2' x:Name="lstOrphanage" HorizontalAlignment="Left" SelectionMode="Single" Height="100" Margin="590,420,0,0" VerticalAlignment="Top" Width="155"                                                  >
+            <ListView.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF86FF00" Offset="1"/>
+                </LinearGradientBrush>
+            </ListView.Background>
+        </ListView>
+        <Button x:ConnectionId='3' x:Name="btnNextAges" Content="NEXT" HorizontalAlignment="Left" Margin="957,197,0,0" VerticalAlignment="Top" Width="183" Height="81"                           Foreground="#FFE200FF" FontWeight="Bold" FontSize="36" Background="#FFC0FF00" BorderBrush="#FF00FF29"/>
+        <Button x:ConnectionId='4' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="947,452,0,0" VerticalAlignment="Top" Height="68" Width="183"                      BorderBrush="#FF00FF29" Foreground="#FFF900FF" Background="#FFE2FF00" FontSize="36" FontWeight="Bold"/>
+        <HyperlinkButton x:ConnectionId='5' x:Name="linkVisit" Content="Visit" HorizontalAlignment="Left" Margin="595,319,0,0" VerticalAlignment="Top" Width="142"                        />
+        <HyperlinkButton x:ConnectionId='6' x:Name="linkVisitOrphanage" Content="Go to Site" HorizontalAlignment="Left" Margin="630,564,0,0" VerticalAlignment="Top"                                 />
 
     </Grid>
 </Page>

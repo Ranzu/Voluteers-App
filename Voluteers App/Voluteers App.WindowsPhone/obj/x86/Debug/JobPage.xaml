@@ -8,9 +8,11 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ListView x:ConnectionId='1' x:Name="listView" HorizontalAlignment="Left" Height="180" Margin="55,100,0,0" VerticalAlignment="Top" Width="560"                                             />
-        <Button x:ConnectionId='2' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="85,50,0,0" VerticalAlignment="Top"                      />
-        <HyperlinkButton x:ConnectionId='3' x:Name="linkVisit"  Content="Visit the selected Item" HorizontalAlignment="Left" Margin="273,306,0,0" VerticalAlignment="Top"                        />
+        <TextBlock HorizontalAlignment="Left" Margin="40,63,0,0" TextWrapping="Wrap" Text="Make your choice " VerticalAlignment="Top" FontSize="35" Width="330" Foreground="#FFFF00E1" FontWeight="Bold"/>
+        <ListView x:ConnectionId='1' x:Name="listView" HorizontalAlignment="Left" Height="180" Margin="20,163,0,0" VerticalAlignment="Top" Width="360"                                             />
+        
+        <Button x:ConnectionId='2' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="121,470,0,0" VerticalAlignment="Top"                      />
+        <HyperlinkButton x:ConnectionId='3' x:Name="linkVisit" Foreground="#FFFF00E1" FontWeight="Bold" Content="Visit the selected Item" HorizontalAlignment="Left" Margin="49,370,0,0" VerticalAlignment="Top"                        />
 
     </Grid>
 </Page>

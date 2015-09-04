@@ -14,12 +14,12 @@
                 <GradientStop Color="#FFFF00ED" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Left" Margin="461,69,0,0" TextWrapping="Wrap" Text="Login Here" VerticalAlignment="Top" FontSize="48" Width="330" Foreground="#FFFF00E1" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="143,181,0,0" TextWrapping="Wrap" Text="Username: " VerticalAlignment="Top" FontSize="22" Foreground="#FFFF00E1" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="143,276,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontSize="22" Foreground="#FFFF00E1" FontWeight="Bold"/>
-        <TextBox x:ConnectionId='1' x:Name="txtUsername2" HorizontalAlignment="Left" Margin="320,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"                                      />
-        <TextBox x:ConnectionId='2' x:Name="txtPassword2" HorizontalAlignment="Left" Margin="320,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"                                      />
-        <Button x:ConnectionId='3' x:Name="btnLogin" Content="LOGIN" HorizontalAlignment="Left" Margin="282,415,0,0" VerticalAlignment="Top" Width="196" Height="104" FontSize="22"                        Background="#FFCBFF00" BorderBrush="#FF4BFF00" Foreground="#FFFF009C" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,63,0,0" TextWrapping="Wrap" Text="Login Here" VerticalAlignment="Top" FontSize="48" Width="330" Foreground="#FFFF00E1" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,172,0,0" TextWrapping="Wrap" Text="Username: " VerticalAlignment="Top" FontSize="22" Foreground="#FFFF00E1" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,278,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontSize="22" Foreground="#FFFF00E1" FontWeight="Bold"/>
+        <TextBox x:ConnectionId='1' x:Name="txtUsername2" HorizontalAlignment="Left" Margin="162,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"                                      />
+        <TextBox x:ConnectionId='2' x:Name="txtPassword2" HorizontalAlignment="Left" Margin="160,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"                                      />
+        <Button x:ConnectionId='3' x:Name="btnLogin" Content="LOGIN" HorizontalAlignment="Left" Margin="94,389,0,0" VerticalAlignment="Top" Width="196" Height="104" FontSize="22"                        Background="#FFCBFF00" BorderBrush="#FF4BFF00" Foreground="#FFFF009C" FontWeight="Bold"/>
 
     </Grid>
 </Page>

@@ -8,26 +8,31 @@
     mc:Ignorable="d">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="21*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black" Offset="0"/>
                 <GradientStop Color="#FFFF009C" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Left" Margin="455,42,0,0" TextWrapping="Wrap" Text="Answer Few Questions" VerticalAlignment="Top" FontSize="48" Foreground="#FFFF009C" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="399" FontSize="22">
+        <TextBlock HorizontalAlignment="Left" Margin="60,38,0,0" TextWrapping="Wrap" Text="Answer Few Questions" VerticalAlignment="Top" FontSize="24" Foreground="#FFFF009C" FontWeight="Bold" Grid.ColumnSpan="3" Height="50" Width="265"/>
+        <TextBlock HorizontalAlignment="Left" Margin="15,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="335" FontSize="18" Grid.ColumnSpan="3">
         	<Run Text="Dou you kno"/>
         	<Run Text="w"/>
         	<Run Text=" anything about first aid?"/>
         </TextBlock>
-        <Button x:ConnectionId='1' x:Name="btnNQues" Content="CALCULATE SCORE" HorizontalAlignment="Left" Margin="374,667,0,0" VerticalAlignment="Top" Height="85" Width="199" FontSize="18"                       />
-        <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Margin="150,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="570" FontSize="22"                                              >
+        <Button x:ConnectionId='1' x:Name="btnNQues" Content="CALCULATE SCORE" HorizontalAlignment="Left" Margin="110,559,0,0" VerticalAlignment="Top" Height="64" Width="180" FontSize="18"                        Grid.ColumnSpan="3"/>
+        <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Margin="10,212,-180,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="570" FontSize="16"                                               Grid.ColumnSpan="3">
         	<Run Text="How long does it take you to do "/>
         	<Run Text="first aid"/>
         	<Run Text=" level 1 or 2"/>
         	<Run Text="?"/>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="151,440,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="934" FontSize="22">
+        <TextBlock HorizontalAlignment="Left" Margin="10,333,-10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="400" FontSize="14" Grid.ColumnSpan="3">
         	<Run Text="How long does it take you to do "/>
         	<Run Text="ba"/>
         	<Run Text="s"/>
@@ -36,7 +41,7 @@
         	<Run Text=" level 1 or 2"/>
         	<Run Text="?"/>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="145,570,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="975" FontSize="22">
+        <TextBlock HorizontalAlignment="Left" Margin="0,463,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="400" FontSize="16" Grid.ColumnSpan="3">
         	<Run Text="How long does it take you to do "/>
         	<Run Text="ba"/>
         	<Run Text="s"/>
@@ -46,33 +51,38 @@
         	<Run Text="3"/>
         	<Run Text="?"/>
         </TextBlock>
-        <Button x:ConnectionId='3' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="132,667,0,0" VerticalAlignment="Top" Height="86" Width="221"                      />
-        <Grid HorizontalAlignment="Left" Height="60" Margin="790,115,0,0" VerticalAlignment="Top" Width="460">
+        <Button x:ConnectionId='3' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="-4,559,0,0" VerticalAlignment="Top" Height="59" Width="86"                       FontSize="16"/>
+        <Grid HorizontalAlignment="Left" Height="60" Margin="600,115,-850,0" VerticalAlignment="Top" Width="460" Grid.Column="2">
             <HyperlinkButton x:ConnectionId='5' x:Name="linkRevert" Content="REVERT" HorizontalAlignment="Left" Margin="185,0,0,0" VerticalAlignment="Top" FontSize="18" Background="#FFF7EFEF"                         />
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="95" Margin="75,320,0,0" VerticalAlignment="Top" Width="750">
-            <RadioButton x:Name="radYes2" Content="16 hours" HorizontalAlignment="Left" Margin="337,67,0,-1" VerticalAlignment="Top" FontFamily="Global User Interface"/>
-            <RadioButton x:Name="radNo2" Content="17 Hours" HorizontalAlignment="Left" Margin="81,67,0,-1" VerticalAlignment="Top"/>
-            <RadioButton x:Name="radNo2_Copy" Content="1 hour" HorizontalAlignment="Left" Margin="212,66,0,0" VerticalAlignment="Top"/>
-            <RadioButton x:Name="radDontKnow2" Content="Don't know" HorizontalAlignment="Left" Margin="497,66,0,0" VerticalAlignment="Top"/>
+        <Grid HorizontalAlignment="Left" Height="130" Margin="0,213,-5,0" VerticalAlignment="Top" Width="405" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="33*"/>
+                <ColumnDefinition Width="14*"/>
+                <ColumnDefinition Width="33*"/>
+            </Grid.ColumnDefinitions>
+            <RadioButton x:Name="radYes2" Content="16 hours" HorizontalAlignment="Left" Margin="5,14,0,0" VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="12" Height="52" Width="133" Grid.ColumnSpan="2"/>
+            <RadioButton x:Name="radNo2" Content="17 Hours" HorizontalAlignment="Left" Margin="30,13,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.06,0.497" FontSize="12" Height="48" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <RadioButton x:Name="radNo2_Copy" Content="1 hour" HorizontalAlignment="Left" Margin="2,61,0,0" VerticalAlignment="Top" FontSize="12" Height="54" Grid.ColumnSpan="2"/>
+            <RadioButton x:Name="radDontKnow2" Content="Don't know" HorizontalAlignment="Left" Margin="27,70,0,0" VerticalAlignment="Top" Height="51" FontSize="12" Grid.ColumnSpan="2" Grid.Column="1"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="95" Margin="80,190,0,0" VerticalAlignment="Top" Width="315">
-            <RadioButton x:Name="radYes1" Content="YES" HorizontalAlignment="Left" Margin="75,65,0,0" VerticalAlignment="Top"/>
-            <RadioButton x:Name="radNo1" Content="NO" HorizontalAlignment="Left" Margin="207,61,0,0" VerticalAlignment="Top"/>
+        <Grid HorizontalAlignment="Left" Height="95" Margin="5,98,0,0" VerticalAlignment="Top" Width="390" Grid.ColumnSpan="3">
+            <RadioButton x:Name="radYes1" Content="YES" HorizontalAlignment="Left" Margin="15,37,0,0" FontSize="12" VerticalAlignment="Top" Width="183" Height="58"/>
+            <RadioButton x:Name="radNo1" Content="NO" HorizontalAlignment="Right" Margin="0,39,-15,-1" FontSize="12" VerticalAlignment="Top"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="95" Margin="75,560,0,0" VerticalAlignment="Top" Width="750">
-            <RadioButton x:Name="radNo4_Cop" Content="16 hours" HorizontalAlignment="Left" Margin="337,67,0,-1" VerticalAlignment="Top" FontFamily="Global User Interface"/>
-            <RadioButton x:Name="radYes4" Content="32 Hours" HorizontalAlignment="Left" Margin="202,66,0,0" VerticalAlignment="Top"/>
-            <RadioButton x:Name="radNo4" Content="1 hour" HorizontalAlignment="Left" Margin="87,62,0,4" VerticalAlignment="Stretch"/>
-            <RadioButton x:Name="radDontKnow4" Content="Don't know" HorizontalAlignment="Left" Margin="497,66,0,0" VerticalAlignment="Top"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="-5,453,0,0" VerticalAlignment="Top" Width="405" Grid.ColumnSpan="3">
+            <RadioButton x:Name="radNo4_Cop" Content="16 hours" HorizontalAlignment="Left" Margin="197,18,0,0" VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="12"/>
+            <RadioButton x:Name="radYes4" Content="32 Hours" HorizontalAlignment="Left" Margin="5,20,0,0" VerticalAlignment="Top" Height="56" FontSize="12"/>
+            <RadioButton x:Name="radNo4" Content="1 hour" HorizontalAlignment="Left" Margin="5,61,0,-20" VerticalAlignment="Stretch" Width="153" FontSize="12"/>
+            <RadioButton x:Name="radDontKnow4" Content="Don't know" HorizontalAlignment="Left" Margin="205,58,0,-20" VerticalAlignment="Top" FontSize="12" Width="93"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="95" Margin="70,435,0,0" VerticalAlignment="Top" Width="1110">
-            <RadioButton x:Name="radNo3" Content="16 hours" HorizontalAlignment="Left" Margin="212,62,0,0" VerticalAlignment="Top" FontFamily="Global User Interface"/>
-            <RadioButton x:Name="radYes3" Content="24 Hours" HorizontalAlignment="Left" Margin="337,62,0,0" VerticalAlignment="Top"/>
-            <RadioButton x:Name="radNo3_Copy1" Content="1 hour" HorizontalAlignment="Left" Margin="87,62,0,0" VerticalAlignment="Top"/>
-            <RadioButton x:Name="radDontKnow3" Content="Don't know" HorizontalAlignment="Left" Margin="496,61,0,0" VerticalAlignment="Top"/>
+        <Grid HorizontalAlignment="Left" Height="135" Margin="-10,333,-5,0" VerticalAlignment="Top" Width="415" Grid.ColumnSpan="3">
+            <RadioButton x:Name="radNo3" Content="16 hours" HorizontalAlignment="Left" Margin="202,17,0,0" VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="12" Height="51"/>
+            <RadioButton x:Name="radYes3" Content="24 Hours" HorizontalAlignment="Left" Margin="20,72,0,0" VerticalAlignment="Top" Width="145" Height="51" FontSize="12"/>
+            <RadioButton x:Name="radNo3_Copy1" Content="1 hour" HorizontalAlignment="Left" Margin="20,22,0,65" VerticalAlignment="Stretch" FontSize="12" Width="103"/>
+            <RadioButton x:Name="radDontKnow3" Content="Don't know" HorizontalAlignment="Left" Margin="205,75,0,0" VerticalAlignment="Top" Height="56" FontSize="12"/>
         </Grid>
-        <Button x:ConnectionId='4' x:Name="btnnext" Content="NEXT" HorizontalAlignment="Left" Margin="582,667,0,0" VerticalAlignment="Top" Height="86" Width="196"                     />
+        <Button x:ConnectionId='4' x:Name="btnnext" Content="NEXT" HorizontalAlignment="Left" Margin="96,560,0,0" VerticalAlignment="Top" Height="31" Width="50"                      Grid.Column="2"/>
 
     </Grid>
 </Page>

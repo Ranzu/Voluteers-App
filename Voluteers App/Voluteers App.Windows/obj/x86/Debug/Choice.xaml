@@ -14,12 +14,12 @@
                 <GradientStop Color="#FFFF0085" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Left" Margin="493,105,0,0" TextWrapping="Wrap" Text="Hello!!!" VerticalAlignment="Top" FontSize="48" Foreground="#FFFF00ED" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="202,213,0,0" TextWrapping="Wrap" Text="Please tick the one you prefer." VerticalAlignment="Top" Height="50" RenderTransformOrigin="0.5,0.5" FontSize="22" Width="333" Foreground="#FFFF0085" FontWeight="Bold"/>
-        <CheckBox x:Name="chbVolunteer" Content="Volunteers" HorizontalAlignment="Left" Margin="199,281,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFFF0085" FontWeight="Bold"/>
-        <CheckBox x:Name="chbJob" Content="JobSeekers" HorizontalAlignment="Left" Margin="199,358,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFFF0085" FontWeight="Bold"/>
-        <Button x:ConnectionId='1' x:Name="btnNChoice" Content="NEXT" HorizontalAlignment="Left" Margin="493,448,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.039,1.643" Height="102" Width="179" FontSize="24"                          Background="#FFB4FF00" Foreground="#FF1100FF" FontWeight="Bold" BorderBrush="#FF06FF00"/>
-        <Button x:ConnectionId='2' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="195,462,0,0" VerticalAlignment="Top" Height="86" Width="193"                      />
+        <TextBlock HorizontalAlignment="Left" Margin="685,100,0,0" TextWrapping="Wrap" Text="Hello!!!" VerticalAlignment="Top" FontSize="48" Foreground="#FF007AFF" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="427,195,0,0" TextWrapping="Wrap" Text="Please tick the one you prefer." VerticalAlignment="Top" Height="50" RenderTransformOrigin="0.5,0.5" FontSize="22" Width="333" Foreground="#FFFF0085" FontWeight="Bold"/>
+        <CheckBox x:Name="chbVolunteer" Content="Volunteers" HorizontalAlignment="Left" Margin="432,292,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFFF0085" FontWeight="Bold"/>
+        <CheckBox x:Name="chbJob" Content="JobSeekers" HorizontalAlignment="Left" Margin="432,417,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFFF0085" FontWeight="Bold"/>
+        <Button x:ConnectionId='1' x:Name="btnNChoice" Content="NEXT" HorizontalAlignment="Left" Margin="957,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.039,1.643" Height="76" Width="156" FontSize="24"                          Background="#FFB4FF00" Foreground="#FFFF006E" FontWeight="Bold" BorderBrush="#FF06FF00"/>
+        <Button x:ConnectionId='2' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="962,412,0,0" VerticalAlignment="Top" Height="86" Width="156"                       Background="#FFB4FF00" BorderBrush="#FF4BD40B" Foreground="#FFFF006E" FontSize="24"/>
 
     </Grid>
 </Page>

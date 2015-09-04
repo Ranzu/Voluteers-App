@@ -7,10 +7,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ListView x:ConnectionId='1' x:Name="listView" HorizontalAlignment="Left" Height="180" Margin="55,100,0,0" VerticalAlignment="Top" Width="560"                                             />
-        <Button x:ConnectionId='2' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="85,50,0,0" VerticalAlignment="Top"                      />
-        <HyperlinkButton x:ConnectionId='3' x:Name="linkVisit"  Content="Visit the selected Item" HorizontalAlignment="Left" Margin="273,306,0,0" VerticalAlignment="Top"                        />
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FFD8089F" Offset="0.73"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="585,103,0,0" TextWrapping="Wrap" Text="Make your choice " VerticalAlignment="Top" FontSize="35" Width="330" Foreground="#FF00D1FF" FontWeight="Bold"/>
+        <ListView x:ConnectionId='1' x:Name="listView" HorizontalAlignment="Left" Height="180" Margin="550,200,0,0" VerticalAlignment="Top" Width="360"                                             >
+            <ListView.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFCDEC0E" Offset="1"/>
+                </LinearGradientBrush>
+            </ListView.Background>
+        </ListView>
+
+        <Button x:ConnectionId='2' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="672,547,0,0" VerticalAlignment="Top"                       Height="81" Width="126" Background="#FFD7FF00" BorderBrush="#FF06FF00" Foreground="#FFFF00E1" FontSize="36"/>
+        <HyperlinkButton x:ConnectionId='3' x:Name="linkVisit" Foreground="#FFFF00E1" FontWeight="Bold" Content="Visit the selected Item" HorizontalAlignment="Left" Margin="638,444,0,0" VerticalAlignment="Top"                         BorderBrush="#FF08E4E4" Background="#FFE2FF00"/>
 
     </Grid>
 </Page>

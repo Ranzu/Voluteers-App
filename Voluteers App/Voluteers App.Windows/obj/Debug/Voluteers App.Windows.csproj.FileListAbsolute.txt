@@ -60,3 +60,5 @@ D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Volutee
 D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\LogoutPage.g.cs
 D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\LogoutPage.xaml
 D:\Mod\Documents\Visual Studio 2013\Projects\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\LogoutPage.xbf
+D:\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\Voluteers App.Windows.exe
+D:\Voluteers App\Voluteers App\Voluteers App.Windows\obj\Debug\Voluteers App.Windows.pdb

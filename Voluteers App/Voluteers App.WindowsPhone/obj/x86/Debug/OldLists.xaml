@@ -14,16 +14,17 @@
                 <GradientStop Color="#FFFF009C" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Left" Margin="133,180,0,0" TextWrapping="Wrap" Text="Old Ages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
-        <ListView x:ConnectionId='1' x:Name="lstOldAges" SelectionMode="Single" HorizontalAlignment="Left" Height="96" Margin="133,209,0,0" VerticalAlignment="Top" Width="132"                                               />
-        <TextBlock HorizontalAlignment="Left" Margin="142,370,0,0" TextWrapping="Wrap" Text="Orphanages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
-        <ListView x:ConnectionId='2' x:Name="lstOrphanage" HorizontalAlignment="Left" SelectionMode="Single" Height="100" Margin="133,401,0,0" VerticalAlignment="Top" Width="100"                                                  >
+        <TextBlock HorizontalAlignment="Left" Margin="40,63,0,0" TextWrapping="Wrap" Text="Make your choice " VerticalAlignment="Top" FontSize="35" Width="330" Foreground="#FFFF00E1" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="45,128,0,0" TextWrapping="Wrap" Text="Old Ages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
+        <ListView x:ConnectionId='1' x:Name="lstOldAges" SelectionMode="Single" HorizontalAlignment="Left" Height="96" Margin="60,168,0,0" VerticalAlignment="Top" Width="132"                                               />
+        <TextBlock HorizontalAlignment="Left" Margin="42,328,0,0" TextWrapping="Wrap" Text="Orphanages" VerticalAlignment="Top" FontSize="20" Foreground="#FFE200FF" FontWeight="Bold"/>
+        <ListView x:ConnectionId='2' x:Name="lstOrphanage" HorizontalAlignment="Left" SelectionMode="Single" Height="100" Margin="54,392,0,0" VerticalAlignment="Top" Width="100"                                                  >
             <ListViewItem Margin="0" Width="288" Height="99"/>
         </ListView>
         <Button x:ConnectionId='3' x:Name="btnNextAges" Content="NEXT" HorizontalAlignment="Left" Margin="403,601,0,0" VerticalAlignment="Top" Width="198" Height="89"                           Foreground="#FFE200FF" FontWeight="Bold" FontSize="36" Background="#FFC0FF00"/>
-        <Button x:ConnectionId='4' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="142,600,0,0" VerticalAlignment="Top" Height="88" Width="208"                     />
-        <HyperlinkButton x:ConnectionId='5' x:Name="linkVisit" Content="Visit" HorizontalAlignment="Left" Margin="133,316,0,0" VerticalAlignment="Top" Width="142"                        />
-        <HyperlinkButton x:ConnectionId='6' x:Name="linkVisitOrphanage" Content="Go to Site" HorizontalAlignment="Left" Margin="150,516,0,0" VerticalAlignment="Top"                                 />
+        <Button x:ConnectionId='4' x:Name="btnBack" Content="BACK" HorizontalAlignment="Left" Margin="70,559,0,0" VerticalAlignment="Top" Height="68" Width="183"                     />
+        <HyperlinkButton x:ConnectionId='5' x:Name="linkVisit" Content="Visit" HorizontalAlignment="Left" Margin="48,275,0,0" VerticalAlignment="Top" Width="142"                        />
+        <HyperlinkButton x:ConnectionId='6' x:Name="linkVisitOrphanage" Content="Go to Site" HorizontalAlignment="Left" Margin="63,500,0,0" VerticalAlignment="Top"                                 />
 
     </Grid>
 </Page>
