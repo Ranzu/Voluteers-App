@@ -92,6 +92,11 @@ namespace Voluteers_App
             this.Frame.Navigate(typeof(LoginPage));
         }
 
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
 
     }
 }

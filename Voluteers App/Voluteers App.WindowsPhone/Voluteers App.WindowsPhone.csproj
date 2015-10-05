@@ -89,6 +89,11 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Job.cs" />
+    <Compile Include="Classes\OldAge.cs" />
+    <Compile Include="Classes\Orphanage.cs" />
+    <Compile Include="Classes\Register.cs" />
+    <Compile Include="Classes\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

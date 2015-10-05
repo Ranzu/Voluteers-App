@@ -70,5 +70,7 @@ namespace Voluteers_App.models
         {
             throw new NotImplementedException();
         }
+
+        public string Address { get; set; }
     }
 }

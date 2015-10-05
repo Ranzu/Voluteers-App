@@ -30,6 +30,7 @@ namespace Voluteers_App
         ObservableCollection<OrphanageViewModel> orphs = null;
         string myItem = string.Empty;
         string jobUrl = string.Empty;
+        string orUrl = string.Empty;
         public OldLists()
         {
             this.InitializeComponent();
@@ -45,11 +46,12 @@ namespace Voluteers_App
             {
                 lstOldAges.Items.Add(old.NAME +":"+old.Address);
             } 
+
             modelOrph = new OrphanagesViewModel();
             orphs = modelOrph.getOrphanages();
             foreach (var o in orphs)
             {
-                lstOrphanage.Items.Add(o.NAME);
+                lstOrphanage.Items.Add(o.NAME+":"+o.Address);
             }
             base.OnNavigatedTo(e);
         }
@@ -65,7 +67,17 @@ namespace Voluteers_App
 
         private void lstOrphanage_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            var selectedItems = lstOrphanage.SelectedItems.ToArray();
+            string oldAgeUrl = string.Empty;
 
+            if (selectedItems != null)
+            {
+                foreach (var item in selectedItems)
+                {
+                    myItem = item.ToString();
+                }
+                orUrl = myItem.Substring(myItem.IndexOf(':') + 1);
+            }
         }
         private async void MessageBox(string p)
         {
@@ -90,7 +102,15 @@ namespace Voluteers_App
 
         private void linkVisitOrphanage_Click(object sender, RoutedEventArgs e)
         {
+            if (jobUrl.Equals(""))
+            {
+                MessageBox("You must select at least one item");
+            }
+            else
+            {
+                linkVisit.NavigateUri = new Uri(jobUrl);
 
+            } 
         }
 
         private void linkVisit_Click(object sender, RoutedEventArgs e)
